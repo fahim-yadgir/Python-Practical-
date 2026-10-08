@@ -1,11 +1,10 @@
 n = int(input("enter number : "))
-
-fact = 1 
+fact = 1
 
 i = 1
 
 while (i<=n):
-    fact = fact *i
+    fact = fact * i
     i+=1
-
-print("fact" ,fact)
+    
+print("factorial of ",fact)
